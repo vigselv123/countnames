@@ -36,4 +36,13 @@ and the countnames file, then enter:
 gcc -o coutnames countnames.c -Wall -Werror
 
 To run test case 1:
-./countnames test/names.txt
+./countnames test/names.txt or ./countnames names.txt depending on where the text files are under
+Expected result:
+Warning - Line 2 is Empty
+Warning - Line 5 is Empty
+Nicky: 1
+Dave Joe: 2
+Yuan Cheng Cheng: 3
+John Smith: 1
+
+Same command with different .txt name for different test inputs, format of results should follow results above
